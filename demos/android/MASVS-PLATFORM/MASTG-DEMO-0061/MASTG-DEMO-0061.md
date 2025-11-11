@@ -1,6 +1,6 @@
 ---
 platform: android
-title: Setting and Clearing FLAG_SECURE in an Activity and Dialog with semgrep
+title: Clearing FLAG_SECURE in an Activity and Dialog with semgrep
 id: MASTG-DEMO-0061
 code: [kotlin]
 test: MASTG-TEST-0291
