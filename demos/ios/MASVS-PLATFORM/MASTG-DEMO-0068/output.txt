@@ -1,0 +1,39 @@
+=== Checking for App Extensions ===
+
+Looking for NSExtensionPointIdentifier in Info.plist files...
+37:		<key>NSExtensionPointIdentifier</key>
+
+=== Extension Type and Activation Rules ===
+
+Extension type:
+		<string>com.apple.share-services</string>
+
+Supported data types:
+			<dict>
+				<key>NSExtensionActivationSupportsText</key>
+				<true/>
+
+=== Checking for App Groups Entitlement ===
+
+	<key>com.apple.security.application-groups</key>
+	<array>
+		<string>group.org.owasp.mastestapp</string>
+	</array>
+
+=== Checking Code for Shared Storage API Usage ===
+
+UserDefaults with suiteName (shared UserDefaults):
+14:    if let sharedDefaults = UserDefaults(suiteName: appGroupID) {
+47:    if let sharedDefaults = UserDefaults(suiteName: appGroupID) {
+
+FileManager containerURL (shared container access):
+28:    if let containerURL = fileManager.containerURL(forSecurityApplicationGroupIdentifier: appGroupID) {
+
+=== Identifying Sensitive Data in Shared Storage ===
+
+Sensitive data stored in shared UserDefaults:
+      sharedDefaults.set("john.doe@example.com", forKey: "userEmail")
+      sharedDefaults.set("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9", forKey: "authToken")
+      sharedDefaults.set("Premium", forKey: "subscriptionLevel")
+
+Files written to shared container:
