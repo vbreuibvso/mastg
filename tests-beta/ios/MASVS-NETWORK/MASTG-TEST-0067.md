@@ -24,7 +24,7 @@ iOS apps that use the [URL Loading System](https://developer.apple.com/documenta
 1. Review the app's `Info.plist` file (@MASTG-TECH-0092) and check for ATS exceptions under the `NSAppTransportSecurity` key:
     - Global exceptions like `NSAllowsArbitraryLoads` which disable ATS for all connections.
     - Domain-specific exceptions such as `NSExceptionAllowsInsecureHTTPLoads` or lowered TLS requirements.
-2. Reverse engineer the app (@MASTG-TECH-0058) and run a static analysis (@MASTG-TECH-0014) looking for:
+2. Reverse engineer the app (@MASTG-TECH-0058) and run a static analysis tool such as @MASTG-TOOL-0073 on the app binary, or use a dynamic analysis tool like @MASTG-TOOL-0039, and look for:
     - Use of lower-level networking APIs (`CFStream`, BSD Sockets, `Network` framework) that bypass ATS.
     - Custom implementations of `URLSessionDelegate` methods that override certificate validation.
     - Methods like `urlSession(_:didReceive:completionHandler:)` that may accept invalid certificates.
