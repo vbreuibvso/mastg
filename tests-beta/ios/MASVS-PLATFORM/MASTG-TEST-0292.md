@@ -15,7 +15,7 @@ profiles: [L1, L2]
 
 This test is the dynamic counterpart to @MASTG-TEST-0291.
 
-When app extensions and their containing apps share data via [App Groups](https://developer.apple.com/documentation/bundleresources/entitlements/com_apple_security_application-groups), the shared data can be monitored at runtime to verify whether sensitive information is being exchanged. This test uses dynamic instrumentation to trace the use of shared storage APIs and capture the data being read from or written to shared containers, user defaults, or databases.
+When app extensions and their containing apps share data via [App Groups](https://developer.apple.com/documentation/bundleresources/entitlements/com_apple_security_application-groups), you can monitor the shared data at runtime to verify whether they exchange sensitive information. This test uses dynamic instrumentation to trace the use of shared storage APIs and capture the data read from or written to shared containers, user defaults, or databases.
 
 ## Steps
 
@@ -37,6 +37,6 @@ The output should contain a trace of:
 
 ## Evaluation
 
-The test case fails if sensitive data is being stored in or retrieved from the shared container, shared user defaults, or shared databases without adequate protection (e.g., encryption). 
+The test case fails if the app stores or retrieves sensitive data in the shared container, shared user defaults, or shared databases without adequate protection (e.g., encryption). 
 
 Review the traced data to determine if it contains sensitive information and whether it is appropriately secured. Consider whether the data sharing is necessary for the extension's functionality and if access controls or encryption mechanisms are in place to protect sensitive data.
