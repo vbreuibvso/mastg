@@ -45,6 +45,7 @@ function generateUUID() {
   });
 }
 
+
 /**
  * Checks if a hook definition is for a native function.
  * @param {object} hook - Hook definition object.
@@ -145,6 +146,50 @@ function registerNativeHook(hook, categoryName, callback) {
       }
       var effectiveStack = fullJavaStack && fullJavaStack.length ? _truncate(fullJavaStack) : _truncate(fullNativeStack);
 
+      // Decode native args: if descriptors provided, decode only those; else auto decode up to 5
+      var decodedArgs = [];
+      try {
+        var descriptors = Array.isArray(hook.args) ? hook.args : [];
+        if (descriptors.length > 0) {
+          for (var ai = 0; ai < descriptors.length; ai++) {
+            var p = args[ai];
+            if (p === undefined) break;
+            decodedArgs.push(decodeArgByDescriptor(p, ai, descriptors[ai]));
+          }
+        } else {
+          // Auto mode
+          var autoCount = 5;
+          for (var aj = 0; aj < autoCount; aj++) {
+            var p2 = args[aj];
+            if (p2 === undefined) break;
+            var fallbackVal = null;
+            try {
+              try { fallbackVal = p2.readCString(); } catch(e1) {
+                try { fallbackVal = p2.toInt32(); } catch(e2) {
+                  try { var bufF = Memory.readByteArray(p2, 64); fallbackVal = bufF ? _arrayBufferToHex(bufF) : p2.toString(); } catch(e3) { fallbackVal = p2.toString(); }
+                }
+              }
+            } catch(eF) { fallbackVal = "<error: " + eF + ">"; }
+            decodedArgs.push({ name: "args["+aj+"]", type: "auto", value: fallbackVal });
+          }
+        }
+      } catch (eDec) {
+        decodedArgs = [{ name: "args", type: "auto", value: "<arg-decode-error: " + eDec + ">" }];
+      }
+
+      // Apply per-arg filters (if present) before emitting
+      try {
+        var descriptors2 = Array.isArray(hook.args) ? hook.args : [];
+        if (!filtersPass(decodedArgs, descriptors2)) {
+          if (hook.debug === true) {
+            console.log(JSON.stringify({ type: 'native-filter-suppressed', symbol: hook.symbol, args: decodedArgs }));
+          }
+          return; // suppress event when filters don't match
+        }
+      } catch (eFilt) {
+        // If filtering fails, default to emitting
+      }
+
       this._mastgEvent = {
         id: generateUUID(),
         type: "native-hook",
@@ -153,7 +198,8 @@ function registerNativeHook(hook, categoryName, callback) {
         module: hook.module || "<global>",
         symbol: hook.symbol,
         address: address.toString(),
-        stackTrace: effectiveStack
+        stackTrace: effectiveStack,
+        inputParameters: decodedArgs
       };
 
       callback(this._mastgEvent);
