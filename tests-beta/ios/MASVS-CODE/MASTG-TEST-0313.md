@@ -41,9 +41,11 @@ The output should include a list of:
 
 ## Evaluation
 
+Data should be considered untrusted when it originates from sources outside the app's direct control, including network responses, user input, data from other apps via IPC, files from shared storage, or data restored from backups.
+
 The test case fails if any of the following conditions are met:
 
 - Sensitive data is serialized without encryption.
-- The app uses `NSCoding` instead of `NSSecureCoding` for untrusted data.
+- The app uses `NSCoding` instead of `NSSecureCoding` for deserializing untrusted data.
 - Serialized data lacks integrity verification (HMAC or signatures) when integrity is required.
 - The app does not validate deserialized data before using it in security-relevant operations.
