@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleIdentifier</key>
+    <string>org.owasp.mastestapp</string>
+    <key>CFBundleName</key>
+    <string>MASTestApp</string>
+    <key>CFBundleVersion</key>
+    <string>1.0</string>
+    <!-- FAIL: [MASTG-TEST-0314] ATS is disabled globally, allowing cleartext HTTP traffic -->
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+    </dict>
+</dict>
+</plist>

@@ -4,6 +4,7 @@ platform: network
 id: MASTG-TEST-0236
 type: [dynamic]
 weakness: MASWE-0050
+related-tests: [MASTG-TEST-0233, MASTG-TEST-0235, MASTG-TEST-0313, MASTG-TEST-0314]
 profiles: [L1, L2]
 ---
 
