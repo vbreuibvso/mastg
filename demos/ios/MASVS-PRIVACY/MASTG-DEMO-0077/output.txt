@@ -1,0 +1,21 @@
+[*] Starting Permission Authorization Status Tracing...
+
+[*] Hooked CLLocationManager.authorizationStatus
+[*] Hooked PHPhotoLibrary.authorizationStatus
+[*] Hooked CNContactStore.authorizationStatusForEntityType
+
+[*] Hooks installed. Interact with the app to trigger permission checks.
+
+[+] CLLocationManager.authorizationStatus called
+    Return value: 4 (authorizedWhenInUse)
+
+Backtrace:
+0x1000045a8 MASTestApp!MastgTest.mastgTest(completion:)
+0x100003b2c MASTestApp!ContentView.body.getter
+0x19a234560 SwiftUI!generic specialization
+
+[+] CNContactStore.authorizationStatusForEntityType called
+    Return value: 3 (authorized)
+
+[+] PHPhotoLibrary.authorizationStatus called
+    Return value: 3 (authorized)

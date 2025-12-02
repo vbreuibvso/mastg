@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleName</key>
+    <string>MASTestApp</string>
+    <key>CFBundleIdentifier</key>
+    <string>org.owasp.mastestapp.MASTestApp-iOS</string>
+    <key>CFBundleVersion</key>
+    <string>1.0</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>We need your location to provide nearby services.</string>
+    <key>NSContactsUsageDescription</key>
+    <string>We need access to your contacts to help you connect with friends.</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>We need access to your photos to let you share images.</string>
+    <key>NSCameraUsageDescription</key>
+    <string>We need camera access to take photos.</string>
+</dict>
+</plist>

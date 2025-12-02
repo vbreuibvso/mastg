@@ -1,0 +1,4 @@
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <key>NSContactsUsageDescription</key>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <key>NSCameraUsageDescription</key>
