@@ -4,7 +4,7 @@ title: Hardcoded HTTP URLs
 id: MASTG-TEST-0313
 type: [static]
 weakness: MASWE-0050
-related-tests: [MASTG-TEST-0314, MASTG-TEST-0236]
+related-tests: [MASTG-TEST-0314, MASTG-TEST-0315, MASTG-TEST-0236]
 profiles: [L1, L2]
 ---
 

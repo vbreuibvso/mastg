@@ -4,7 +4,7 @@ title: App Transport Security Configurations Allowing Cleartext Traffic
 id: MASTG-TEST-0314
 type: [static]
 weakness: MASWE-0050
-related-tests: [MASTG-TEST-0313, MASTG-TEST-0236]
+related-tests: [MASTG-TEST-0313, MASTG-TEST-0315, MASTG-TEST-0236]
 profiles: [L1, L2]
 ---
 
