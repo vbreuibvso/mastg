@@ -9,8 +9,8 @@ Sensitive text inputs should never participate in keyboard learning or predictio
 
 - For inputs such as usernames, email addresses, recovery codes, and similar data, set `autocorrectionType` to `no` and `spellCheckingType` to `no`. Autocorrection and spell checking rely on analyzing typed content and may retain or resurface that content through suggestions. Disabling both traits ensures the keyboard does not treat these values as language data worth remembering or reusing.
 
-- For password like inputs, always enable `isSecureTextEntry`. Secure text entry masks characters on screen and implicitly disables autocorrection and spell checking. This provides the strongest baseline protection for secrets and avoids accidental exposure through keyboard suggestions, predictive text, or third party keyboards.
+- For password-like inputs, always enable `isSecureTextEntry`. Secure text entry masks characters on screen and implicitly disables autocorrection and spell checking. This provides the strongest baseline protection for secrets and avoids accidental exposure through keyboard suggestions, predictive text, or third-party keyboards.
 
-These traits must be applied consistently across the entire application. Configure them in code or Interface Builder for every security sensitive field, including login, registration, account recovery, payment, and profile related screens.
+These traits must be applied consistently across the entire application. Configure them in code or Interface Builder for every security-sensitive field, including login, registration, account recovery, payment, and profile-related screens.
 
 Any exceptions should be rare and well justified. If spell checking or autocorrection cannot be disabled due to strong usability requirements, the risk should be explicitly assessed and documented.
