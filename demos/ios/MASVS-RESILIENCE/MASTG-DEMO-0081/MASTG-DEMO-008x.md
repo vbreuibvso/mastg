@@ -2,14 +2,13 @@
 platform: ios
 title: Verbose Error Logging Analysis
 code: [swift]
-id: MASTG-DEMO-0081
-test: MASTG-TEST-0318
-tools: [MASTG-TOOL-0073]
+id: MASTG-DEMO-008x
+test: MASTG-TEST-03x1
 ---
 
 ### Sample
 
-The code snippet below shows sample code that performs verbose error logging and debugging messages that expose implementation details such as API endpoints, authentication logic, error codes, and internal configuration.
+The sample code below performs verbose error logging and debugging messages that expose implementation details such as API endpoints, authentication logic, error codes, and internal configuration.
 
 {{ MastgTest.swift }}
 
@@ -37,5 +36,3 @@ The test fails because the app contains multiple instances of verbose logging th
 - **Error handling logic**: Detailed error codes (`AUTH_001`) and module names (`AuthenticationService.validateCredentials()`).
 - **Network configuration**: Debug logs expose timeout values, retry counts, and SSL pinning status.
 - **Internal state**: Messages reveal caching behavior and fallback mechanisms.
-
-These verbose logging statements should be removed or properly guarded with compilation conditions (e.g., `#if DEBUG`) to prevent them from appearing in production builds.
