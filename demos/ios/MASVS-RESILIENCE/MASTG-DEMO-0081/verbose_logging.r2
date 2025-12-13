@@ -29,8 +29,13 @@ izz~ERROR
 
 ?e
 ?e [*] Looking for API endpoint references in strings:
-izz~api,endpoint,http
+izz~api
+izz~endpoint
+izz~http
 
 ?e
 ?e [*] Looking for authentication-related logging:
-izz~auth,login,token,credential
+izz~auth
+izz~login
+izz~token
+izz~credential

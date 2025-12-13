@@ -38,6 +38,8 @@
 
 [*] Looking for API endpoint references in strings:
 5024 0x00010d20 0x10000d20 67  68   ascii [DEBUG] Attempting to connect to API endpoint: https://internal-api.example.com/v2/auth/login
+5024 0x00010d20 0x10000d20 67  68   ascii [DEBUG] Attempting to connect to API endpoint: https://internal-api.example.com/v2/auth/login
+5024 0x00010d20 0x10000d20 67  68   ascii [DEBUG] Attempting to connect to API endpoint: https://internal-api.example.com/v2/auth/login
 
 [*] Looking for authentication-related logging:
 5024 0x00010d20 0x10000d20 67  68   ascii [DEBUG] Attempting to connect to API endpoint: https://internal-api.example.com/v2/auth/login
@@ -46,3 +48,7 @@
 5029 0x00010e54 0x10000e54 80  81   ascii [DEBUG] Error code: AUTH_001, Module: AuthenticationService.validateCredentials()
 5030 0x00010ea5 0x10000ea5 52  53   ascii Validating credentials against local database
 5040 0x00011020 0x100011020 64  65   ascii [ERROR] Authentication failed - Invalid credentials provided
+5025 0x00010d64 0x10000d64 51  52   ascii [DEBUG] performLogin() called with username: 
+5026 0x00010d98 0x10000d98 73  74   ascii ✅ [DEBUG] Authentication successful - Session token generated: 
+5026 0x00010d98 0x10000d98 73  74   ascii ✅ [DEBUG] Authentication successful - Session token generated: 
+5030 0x00010ea5 0x10000ea5 52  53   ascii Validating credentials against local database
