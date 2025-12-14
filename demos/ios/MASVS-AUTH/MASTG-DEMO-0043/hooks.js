@@ -1,5 +1,5 @@
 var target = {
-  category: "MASVS-AUTH",
+  category: "AUTH",
   hooks: [
     // SecAccessControlCreateWithFlags(allocator, protection, flags, &error) -> SecAccessControl
     {

@@ -27,19 +27,19 @@
   "totalErrors": 0
 }
 {
-  "id": "827ca49e-a1cb-4bcf-b224-dab987cdb6cc",
+  "id": "fddff36f-e11f-49ec-adec-fd775db3e998",
   "type": "hook",
   "category": "STORAGE",
-  "time": "2025-11-30T15:22:22.990Z",
+  "time": "2025-12-14T16:07:38.487Z",
   "class": "android.app.KeyguardManager",
   "method": "isDeviceSecure",
-  "instanceId": 163098268,
+  "instanceId": 33293371,
   "stackTrace": [
     "android.app.KeyguardManager.isDeviceSecure(Native Method)",
     "org.owasp.mastestapp.MastgTest.isDeviceSecure(MastgTest.kt:24)",
     "org.owasp.mastestapp.MastgTest.mastgTest(MastgTest.kt:10)",
-    "org.owasp.mastestapp.MainActivityKt.MainScreen$lambda$6$lambda$5(MainActivity.kt:55)",
-    "org.owasp.mastestapp.MainActivityKt.$r8$lambda$PtKdgqcXvbS9cMNZVWq3K3GGQKQ(Unknown Source:0)",
+    "org.owasp.mastestapp.MainActivityKt.MainScreen$lambda$12$lambda$11(MainActivity.kt:101)",
+    "org.owasp.mastestapp.MainActivityKt.$r8$lambda$Pm6AsbKBmypP53K-UABM21E_Xxk(Unknown Source:0)",
     "org.owasp.mastestapp.MainActivityKt$$ExternalSyntheticLambda3.run(D8$$SyntheticClass:0)",
     "java.lang.Thread.run(Thread.java:1012)"
   ],
@@ -52,19 +52,19 @@
   ]
 }
 {
-  "id": "05a5ff1e-d19a-4c73-9807-82ea90bf0bf3",
+  "id": "09e6ee6b-6db0-40d4-9c65-37522aaabcd0",
   "type": "hook",
   "category": "STORAGE",
-  "time": "2025-11-30T15:22:22.997Z",
+  "time": "2025-12-14T16:07:38.497Z",
   "class": "android.hardware.biometrics.BiometricManager",
   "method": "canAuthenticate",
-  "instanceId": 6130810,
+  "instanceId": 35486102,
   "stackTrace": [
     "android.hardware.biometrics.BiometricManager.canAuthenticate(Native Method)",
     "org.owasp.mastestapp.MastgTest.checkStrongBiometricStatus(MastgTest.kt:38)",
     "org.owasp.mastestapp.MastgTest.mastgTest(MastgTest.kt:11)",
-    "org.owasp.mastestapp.MainActivityKt.MainScreen$lambda$6$lambda$5(MainActivity.kt:55)",
-    "org.owasp.mastestapp.MainActivityKt.$r8$lambda$PtKdgqcXvbS9cMNZVWq3K3GGQKQ(Unknown Source:0)",
+    "org.owasp.mastestapp.MainActivityKt.MainScreen$lambda$12$lambda$11(MainActivity.kt:101)",
+    "org.owasp.mastestapp.MainActivityKt.$r8$lambda$Pm6AsbKBmypP53K-UABM21E_Xxk(Unknown Source:0)",
     "org.owasp.mastestapp.MainActivityKt$$ExternalSyntheticLambda3.run(D8$$SyntheticClass:0)",
     "java.lang.Thread.run(Thread.java:1012)"
   ],

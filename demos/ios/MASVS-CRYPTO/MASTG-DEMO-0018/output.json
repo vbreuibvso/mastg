@@ -12,25 +12,25 @@
   "totalErrors": 0
 }
 {
-  "id": "89ebaa47-15d6-4123-b6dc-4b6de5f3f96d",
+  "id": "235af42a-0e4f-4bf1-83be-950dc16d17bc",
   "type": "native-hook",
-  "category": "MASVS-CRYPTO",
-  "time": "2025-11-30T17:29:12.497Z",
+  "category": "CRYPTO",
+  "time": "2025-12-14T16:40:40.405Z",
   "module": "<global>",
   "symbol": "CCCrypt",
   "address": "0x1d1ba1690",
   "stackTrace": [
-    "0x1042a6124 MASTestApp.debug.dylib!closure #1 in closure #1 in static MastgTest.mastgTest(completion:) /Users/charlie/git/MASTestApp-iOS/MASTestApp/MastgTest.swift:15:17",
-    "0x1042a6d60 MASTestApp.debug.dylib!partial apply for closure #1 in closure #1 in static MastgTest.mastgTest(completion:) /<compiler-generated>:0",
+    "0x102d12124 MASTestApp.debug.dylib!closure #1 in closure #1 in static MastgTest.mastgTest(completion:) /Users/charlie/git/MASTestApp-iOS/MASTestApp/MastgTest.swift:15:17",
+    "0x102d12d60 MASTestApp.debug.dylib!partial apply for closure #1 in closure #1 in static MastgTest.mastgTest(completion:) /<compiler-generated>:0",
     "0x197571e14 libswiftCore.dylib!partial apply for closure #1 in _StringGuts.withCString<A>(_:)",
     "0x1973590a8 libswiftCore.dylib!String.withCString<A>(_:)",
-    "0x1042a5d04 MASTestApp.debug.dylib!closure #1 in static MastgTest.mastgTest(completion:) /Users/charlie/git/MASTestApp-iOS/MASTestApp/MastgTest.swift:14:17",
-    "0x1042a5de4 MASTestApp.debug.dylib!partial apply for closure #1 in static MastgTest.mastgTest(completion:) /<compiler-generated>:0",
+    "0x102d11d04 MASTestApp.debug.dylib!closure #1 in static MastgTest.mastgTest(completion:) /Users/charlie/git/MASTestApp-iOS/MASTestApp/MastgTest.swift:14:17",
+    "0x102d11de4 MASTestApp.debug.dylib!partial apply for closure #1 in static MastgTest.mastgTest(completion:) /<compiler-generated>:0",
     "0x180b91f24 Foundation!__DataStorage.withUnsafeBytes<A>(in:apply:)",
     "0x180b978f8 Foundation!Data._Representation.withUnsafeBytes<A>(_:)",
     "0x180b90dac Foundation!Data.withUnsafeBytes<A>(_:)",
-    "0x1042a54d4 MASTestApp.debug.dylib!static MastgTest.mastgTest(completion:) /Users/charlie/git/MASTestApp-iOS/MASTestApp/MastgTest.swift:13:32",
-    "0x1042a8464 MASTestApp.debug.dylib!closure #1 in closure #1 in closure #1 in ContentView.body.getter /Users/charlie/git/MASTestApp-iOS/MASTestApp/ContentView.swift:25:31",
+    "0x102d114d4 MASTestApp.debug.dylib!static MastgTest.mastgTest(completion:) /Users/charlie/git/MASTestApp-iOS/MASTestApp/MastgTest.swift:13:32",
+    "0x102d14464 MASTestApp.debug.dylib!closure #1 in closure #1 in closure #1 in ContentView.body.getter /Users/charlie/git/MASTestApp-iOS/MASTestApp/ContentView.swift:25:31",
     "0x1d9dbf428 SwiftUI!<deduplicated_symbol>",
     "0x1da4c02a0 SwiftUI!specialized static MainActor.assumeIsolated<A>(_:file:line:)",
     "0x1da48ac9c SwiftUI!ButtonAction.callAsFunction()",
@@ -95,7 +95,7 @@
     {
       "name": "dataOutMoved",
       "type": "pointer",
-      "value": "0x16bc01ef8"
+      "value": "0x16d255ef8"
     }
   ],
   "retval": "0x0"

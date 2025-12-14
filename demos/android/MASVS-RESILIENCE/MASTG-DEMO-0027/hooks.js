@@ -1,6 +1,5 @@
 var target = {
   category: "STORAGE",
-  demo: "0002",
   hooks: [
     {
       class: "android.app.KeyguardManager",

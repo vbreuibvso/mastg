@@ -1,5 +1,5 @@
 var target = {
-  category: "MASVS-CRYPTO",
+  category: "CRYPTO",
   hooks: [
     // Generate RSA key pair: SecKeyCreateRandomKey(attributes CFDictionary, &error) -> SecKey (private)
     {

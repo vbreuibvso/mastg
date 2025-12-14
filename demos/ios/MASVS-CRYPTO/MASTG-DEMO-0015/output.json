@@ -17,22 +17,22 @@
   "totalErrors": 0
 }
 {
-  "id": "80721c7f-4bc2-4009-9f44-d0bf054188ee",
+  "id": "60f70cf8-ef99-4d24-ace2-b59c882940ef",
   "type": "native-hook",
-  "category": "MASVS-CRYPTO",
-  "time": "2025-11-30T17:48:48.547Z",
+  "category": "CRYPTO",
+  "time": "2025-12-14T16:38:26.624Z",
   "module": "<global>",
   "symbol": "CC_SHA1",
   "address": "0x1d1ba2dac",
   "stackTrace": [
-    "0x1049156bc MASTestApp.debug.dylib!closure #1 in static MastgTest.generateSHA1Hash(data:) /Users/charlie/git/MASTestApp-iOS/MASTestApp/MastgTest.swift:9:17",
-    "0x104915854 MASTestApp.debug.dylib!partial apply for closure #1 in static MastgTest.generateSHA1Hash(data:) /<compiler-generated>:0",
+    "0x1009456bc MASTestApp.debug.dylib!closure #1 in static MastgTest.generateSHA1Hash(data:) /Users/charlie/git/MASTestApp-iOS/MASTestApp/MastgTest.swift:9:17",
+    "0x100945854 MASTestApp.debug.dylib!partial apply for closure #1 in static MastgTest.generateSHA1Hash(data:) /<compiler-generated>:0",
     "0x180b91f24 Foundation!__DataStorage.withUnsafeBytes<A>(in:apply:)",
     "0x180b978f8 Foundation!Data._Representation.withUnsafeBytes<A>(_:)",
     "0x180b90dac Foundation!Data.withUnsafeBytes<A>(_:)",
-    "0x1049152a8 MASTestApp.debug.dylib!static MastgTest.generateSHA1Hash(data:) /Users/charlie/git/MASTestApp-iOS/MASTestApp/MastgTest.swift:8:14",
-    "0x104916b88 MASTestApp.debug.dylib!static MastgTest.mastgTest(completion:) /Users/charlie/git/MASTestApp-iOS/MASTestApp/MastgTest.swift:27:24",
-    "0x1049187e0 MASTestApp.debug.dylib!closure #1 in closure #1 in closure #1 in ContentView.body.getter /Users/charlie/git/MASTestApp-iOS/MASTestApp/ContentView.swift:25:31",
+    "0x1009452a8 MASTestApp.debug.dylib!static MastgTest.generateSHA1Hash(data:) /Users/charlie/git/MASTestApp-iOS/MASTestApp/MastgTest.swift:8:14",
+    "0x100946b88 MASTestApp.debug.dylib!static MastgTest.mastgTest(completion:) /Users/charlie/git/MASTestApp-iOS/MASTestApp/MastgTest.swift:27:24",
+    "0x1009487e0 MASTestApp.debug.dylib!closure #1 in closure #1 in closure #1 in ContentView.body.getter /Users/charlie/git/MASTestApp-iOS/MASTestApp/ContentView.swift:25:31",
     "0x1d9dbf428 SwiftUI!<deduplicated_symbol>",
     "0x1da4c02a0 SwiftUI!specialized static MainActor.assumeIsolated<A>(_:file:line:)",
     "0x1da48ac9c SwiftUI!ButtonAction.callAsFunction()",
@@ -61,25 +61,25 @@
       "format": "base64"
     }
   ],
-  "retval": "0x60000170af20"
+  "retval": "0x600001715ee0"
 }
 {
-  "id": "3ef693d3-2281-4f91-85e1-f3498bf154a5",
+  "id": "6d18b08c-5357-4c0b-872c-b541cc03d887",
   "type": "native-hook",
-  "category": "MASVS-CRYPTO",
-  "time": "2025-11-30T17:48:48.732Z",
+  "category": "CRYPTO",
+  "time": "2025-12-14T16:38:26.794Z",
   "module": "<global>",
   "symbol": "CC_MD5",
   "address": "0x1d1ba2a48",
   "stackTrace": [
-    "0x10491676c MASTestApp.debug.dylib!closure #1 in static MastgTest.generateMD5Hash(data:) /Users/charlie/git/MASTestApp-iOS/MASTestApp/MastgTest.swift:18:17",
-    "0x10491688c MASTestApp.debug.dylib!partial apply for closure #1 in static MastgTest.generateMD5Hash(data:) /<compiler-generated>:0",
+    "0x10094676c MASTestApp.debug.dylib!closure #1 in static MastgTest.generateMD5Hash(data:) /Users/charlie/git/MASTestApp-iOS/MASTestApp/MastgTest.swift:18:17",
+    "0x10094688c MASTestApp.debug.dylib!partial apply for closure #1 in static MastgTest.generateMD5Hash(data:) /<compiler-generated>:0",
     "0x180b91f24 Foundation!__DataStorage.withUnsafeBytes<A>(in:apply:)",
     "0x180b978f8 Foundation!Data._Representation.withUnsafeBytes<A>(_:)",
     "0x180b90dac Foundation!Data.withUnsafeBytes<A>(_:)",
-    "0x104916358 MASTestApp.debug.dylib!static MastgTest.generateMD5Hash(data:) /Users/charlie/git/MASTestApp-iOS/MASTestApp/MastgTest.swift:17:14",
-    "0x104916bbc MASTestApp.debug.dylib!static MastgTest.mastgTest(completion:) /Users/charlie/git/MASTestApp-iOS/MASTestApp/MastgTest.swift:30:23",
-    "0x1049187e0 MASTestApp.debug.dylib!closure #1 in closure #1 in closure #1 in ContentView.body.getter /Users/charlie/git/MASTestApp-iOS/MASTestApp/ContentView.swift:25:31",
+    "0x100946358 MASTestApp.debug.dylib!static MastgTest.generateMD5Hash(data:) /Users/charlie/git/MASTestApp-iOS/MASTestApp/MastgTest.swift:17:14",
+    "0x100946bbc MASTestApp.debug.dylib!static MastgTest.mastgTest(completion:) /Users/charlie/git/MASTestApp-iOS/MASTestApp/MastgTest.swift:30:23",
+    "0x1009487e0 MASTestApp.debug.dylib!closure #1 in closure #1 in closure #1 in ContentView.body.getter /Users/charlie/git/MASTestApp-iOS/MASTestApp/ContentView.swift:25:31",
     "0x1d9dbf428 SwiftUI!<deduplicated_symbol>",
     "0x1da4c02a0 SwiftUI!specialized static MainActor.assumeIsolated<A>(_:file:line:)",
     "0x1da48ac9c SwiftUI!ButtonAction.callAsFunction()",
@@ -108,5 +108,5 @@
       "format": "base64"
     }
   ],
-  "retval": "0x600000c48590"
+  "retval": "0x600000c3de50"
 }

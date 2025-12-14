@@ -31,13 +31,13 @@
   "totalErrors": 0
 }
 {
-  "id": "30d93a1e-0f2e-499b-b641-71b8889bf013",
+  "id": "3c68ba87-a2e8-4b52-82f5-b098c1ac4fd1",
   "type": "native-hook",
   "category": "STORAGE",
-  "time": "2025-11-30T11:03:37.433Z",
+  "time": "2025-12-14T16:10:35.209Z",
   "module": "libc.so",
   "symbol": "open",
-  "address": "0x788bacc130",
+  "address": "0x753727c130",
   "stackTrace": [
     "libcore.io.Linux.open(Native Method)",
     "libcore.io.ForwardingOs.open(ForwardingOs.java:563)",
@@ -49,8 +49,8 @@
     "java.io.FileOutputStream.<init>(FileOutputStream.java:186)",
     "org.owasp.mastestapp.MastgTest.mastgTestApi(MastgTest.kt:26)",
     "org.owasp.mastestapp.MastgTest.mastgTest(MastgTest.kt:16)",
-    "org.owasp.mastestapp.MainActivityKt.MainScreen$lambda$6$lambda$5(MainActivity.kt:55)",
-    "org.owasp.mastestapp.MainActivityKt.$r8$lambda$PtKdgqcXvbS9cMNZVWq3K3GGQKQ(Unknown Source:0)",
+    "org.owasp.mastestapp.MainActivityKt.MainScreen$lambda$12$lambda$11(MainActivity.kt:101)",
+    "org.owasp.mastestapp.MainActivityKt.$r8$lambda$Pm6AsbKBmypP53K-UABM21E_Xxk(Unknown Source:0)",
     "org.owasp.mastestapp.MainActivityKt$$ExternalSyntheticLambda3.run(D8$$SyntheticClass:0)",
     "java.lang.Thread.run(Thread.java:1012)"
   ],
@@ -63,19 +63,19 @@
   ]
 }
 {
-  "id": "b974653c-29d4-4cb6-ab4d-e779844c88cf",
+  "id": "4f8ca771-9e45-4ed3-8ae3-2ae4d6c20f9b",
   "type": "hook",
   "category": "STORAGE",
-  "time": "2025-11-30T11:03:37.439Z",
+  "time": "2025-12-14T16:10:35.219Z",
   "class": "android.content.ContentResolver",
   "method": "insert",
-  "instanceId": 6130810,
+  "instanceId": 27044119,
   "stackTrace": [
     "android.content.ContentResolver.insert(Native Method)",
     "org.owasp.mastestapp.MastgTest.mastgTestMediaStore(MastgTest.kt:44)",
     "org.owasp.mastestapp.MastgTest.mastgTest(MastgTest.kt:17)",
-    "org.owasp.mastestapp.MainActivityKt.MainScreen$lambda$6$lambda$5(MainActivity.kt:55)",
-    "org.owasp.mastestapp.MainActivityKt.$r8$lambda$PtKdgqcXvbS9cMNZVWq3K3GGQKQ(Unknown Source:0)",
+    "org.owasp.mastestapp.MainActivityKt.MainScreen$lambda$12$lambda$11(MainActivity.kt:101)",
+    "org.owasp.mastestapp.MainActivityKt.$r8$lambda$Pm6AsbKBmypP53K-UABM21E_Xxk(Unknown Source:0)",
     "org.owasp.mastestapp.MainActivityKt$$ExternalSyntheticLambda3.run(D8$$SyntheticClass:0)",
     "java.lang.Thread.run(Thread.java:1012)"
   ],
@@ -84,24 +84,24 @@
       "declaredType": "android.net.Uri",
       "value": "content://media/external/downloads",
       "runtimeType": "android.net.Uri$HierarchicalUri",
-      "instanceId": "150875179",
+      "instanceId": "167981316",
       "instanceToString": "content://media/external/downloads"
     },
     {
       "declaredType": "android.content.ContentValues",
       "value": "<instance: android.content.ContentValues>",
       "runtimeType": "android.content.ContentValues",
-      "instanceId": "166729864",
-      "instanceToString": "_display_name=secretFile93.txt mime_type=text/plain relative_path=Download"
+      "instanceId": "157501165",
+      "instanceToString": "_display_name=secretFile9.txt mime_type=text/plain relative_path=Download"
     }
   ],
   "returnValue": [
     {
       "declaredType": "android.net.Uri",
-      "value": "content://media/external/downloads/1000000062",
+      "value": "content://media/external/downloads/1000000064",
       "runtimeType": "android.net.Uri$HierarchicalUri",
-      "instanceId": "203945542",
-      "instanceToString": "content://media/external/downloads/1000000062"
+      "instanceId": "37273523",
+      "instanceToString": "content://media/external/downloads/1000000064"
     }
   ]
 }

@@ -12,13 +12,13 @@
   "totalErrors": 0
 }
 {
-  "id": "8e171634-ce43-46db-9cf1-b8b1cd468f02",
+  "id": "332af8ce-918f-4e6a-a087-fef218062849",
   "type": "native-hook",
   "category": "STORAGE",
-  "time": "2025-11-30T15:46:04.154Z",
+  "time": "2025-12-14T16:42:17.633Z",
   "module": "<global>",
   "symbol": "open",
-  "address": "0x104f33914",
+  "address": "0x100cfb914",
   "stackTrace": [
     "0x1810b8014 Foundation!_NSOpenFileDescriptor_Protected",
     "0x180bc1204 Foundation!closure #1 in writeToFileNoAux(path:buffer:options:attributes:reportProgress:)",
@@ -28,8 +28,8 @@
     "0x180dde828 Foundation!partial apply for closure #1 in writeToFile(path:data:options:attributes:reportProgress:)",
     "0x1808aeb0c Foundation!specialized Data._Representation.withUnsafeBytes<A>(_:)",
     "0x180ddd5fc Foundation!StringProtocol.write(to:atomically:encoding:)",
-    "0x104c1d6c8 MASTestApp.debug.dylib!static MastgTest.mastgTest(completion:) /Users/charlie/git/MASTestApp-iOS/MASTestApp/MastgTest.swift:22:21",
-    "0x104c1f38c MASTestApp.debug.dylib!closure #1 in closure #1 in closure #1 in ContentView.body.getter /Users/charlie/git/MASTestApp-iOS/MASTestApp/ContentView.swift:25:31",
+    "0x100cb56c8 MASTestApp.debug.dylib!static MastgTest.mastgTest(completion:) /Users/charlie/git/MASTestApp-iOS/MASTestApp/MastgTest.swift:22:21",
+    "0x100cb738c MASTestApp.debug.dylib!closure #1 in closure #1 in closure #1 in ContentView.body.getter /Users/charlie/git/MASTestApp-iOS/MASTestApp/ContentView.swift:25:31",
     "0x1d9dbf428 SwiftUI!<deduplicated_symbol>",
     "0x1da4c02a0 SwiftUI!specialized static MainActor.assumeIsolated<A>(_:file:line:)",
     "0x1da48ac9c SwiftUI!ButtonAction.callAsFunction()",
@@ -41,18 +41,18 @@
     {
       "name": "path",
       "type": "string",
-      "value": "/Users/charlie/Library/Developer/CoreSimulator/Devices/196D4426-FBB3-4AD8-B1FA-B09E13C6B6E0/data/Containers/Data/Application/0A579EFD-F6A9-4350-A053-4A772C6F07D5/Documents/secret.json"
+      "value": "/Users/charlie/Library/Developer/CoreSimulator/Devices/196D4426-FBB3-4AD8-B1FA-B09E13C6B6E0/data/Containers/Data/Application/5F896191-75F7-4D5F-BA0C-61CCFD9CC84A/Documents/secret.json"
     }
   ]
 }
 {
-  "id": "57fe0f41-1567-48b2-a7f2-af417a85c6d4",
+  "id": "1d7049c7-ea14-4fdf-91fd-57de2ad4a020",
   "type": "native-hook",
   "category": "STORAGE",
-  "time": "2025-11-30T15:46:04.159Z",
+  "time": "2025-12-14T16:42:17.635Z",
   "module": "<global>",
   "symbol": "open",
-  "address": "0x104f33914",
+  "address": "0x100cfb914",
   "stackTrace": [
     "0x1810b8014 Foundation!_NSOpenFileDescriptor_Protected",
     "0x180bc1204 Foundation!closure #1 in writeToFileNoAux(path:buffer:options:attributes:reportProgress:)",
@@ -62,8 +62,8 @@
     "0x180dde828 Foundation!partial apply for closure #1 in writeToFile(path:data:options:attributes:reportProgress:)",
     "0x1808aeb0c Foundation!specialized Data._Representation.withUnsafeBytes<A>(_:)",
     "0x180ddd5fc Foundation!StringProtocol.write(to:atomically:encoding:)",
-    "0x104c1d6c8 MASTestApp.debug.dylib!static MastgTest.mastgTest(completion:) /Users/charlie/git/MASTestApp-iOS/MASTestApp/MastgTest.swift:22:21",
-    "0x104c1f38c MASTestApp.debug.dylib!closure #1 in closure #1 in closure #1 in ContentView.body.getter /Users/charlie/git/MASTestApp-iOS/MASTestApp/ContentView.swift:25:31",
+    "0x100cb56c8 MASTestApp.debug.dylib!static MastgTest.mastgTest(completion:) /Users/charlie/git/MASTestApp-iOS/MASTestApp/MastgTest.swift:22:21",
+    "0x100cb738c MASTestApp.debug.dylib!closure #1 in closure #1 in closure #1 in ContentView.body.getter /Users/charlie/git/MASTestApp-iOS/MASTestApp/ContentView.swift:25:31",
     "0x1d9dbf428 SwiftUI!<deduplicated_symbol>",
     "0x1da4c02a0 SwiftUI!specialized static MainActor.assumeIsolated<A>(_:file:line:)",
     "0x1da48ac9c SwiftUI!ButtonAction.callAsFunction()",
@@ -75,18 +75,18 @@
     {
       "name": "path",
       "type": "string",
-      "value": "/Users/charlie/Library/Developer/CoreSimulator/Devices/196D4426-FBB3-4AD8-B1FA-B09E13C6B6E0/data/Containers/Data/Application/0A579EFD-F6A9-4350-A053-4A772C6F07D5/Library/Caches/secret.json"
+      "value": "/Users/charlie/Library/Developer/CoreSimulator/Devices/196D4426-FBB3-4AD8-B1FA-B09E13C6B6E0/data/Containers/Data/Application/5F896191-75F7-4D5F-BA0C-61CCFD9CC84A/Library/Caches/secret.json"
     }
   ]
 }
 {
-  "id": "edf1719c-4533-4757-8aff-35c63df3840c",
+  "id": "ad573464-cf83-40f1-ae31-9ebc86ea067c",
   "type": "native-hook",
   "category": "STORAGE",
-  "time": "2025-11-30T15:46:04.161Z",
+  "time": "2025-12-14T16:42:17.637Z",
   "module": "<global>",
   "symbol": "open",
-  "address": "0x104f33914",
+  "address": "0x100cfb914",
   "stackTrace": [
     "0x1810b8014 Foundation!_NSOpenFileDescriptor_Protected",
     "0x180bc1204 Foundation!closure #1 in writeToFileNoAux(path:buffer:options:attributes:reportProgress:)",
@@ -96,8 +96,8 @@
     "0x180dde828 Foundation!partial apply for closure #1 in writeToFile(path:data:options:attributes:reportProgress:)",
     "0x1808aeb0c Foundation!specialized Data._Representation.withUnsafeBytes<A>(_:)",
     "0x180ddd5fc Foundation!StringProtocol.write(to:atomically:encoding:)",
-    "0x104c1d6c8 MASTestApp.debug.dylib!static MastgTest.mastgTest(completion:) /Users/charlie/git/MASTestApp-iOS/MASTestApp/MastgTest.swift:22:21",
-    "0x104c1f38c MASTestApp.debug.dylib!closure #1 in closure #1 in closure #1 in ContentView.body.getter /Users/charlie/git/MASTestApp-iOS/MASTestApp/ContentView.swift:25:31",
+    "0x100cb56c8 MASTestApp.debug.dylib!static MastgTest.mastgTest(completion:) /Users/charlie/git/MASTestApp-iOS/MASTestApp/MastgTest.swift:22:21",
+    "0x100cb738c MASTestApp.debug.dylib!closure #1 in closure #1 in closure #1 in ContentView.body.getter /Users/charlie/git/MASTestApp-iOS/MASTestApp/ContentView.swift:25:31",
     "0x1d9dbf428 SwiftUI!<deduplicated_symbol>",
     "0x1da4c02a0 SwiftUI!specialized static MainActor.assumeIsolated<A>(_:file:line:)",
     "0x1da48ac9c SwiftUI!ButtonAction.callAsFunction()",
@@ -109,18 +109,18 @@
     {
       "name": "path",
       "type": "string",
-      "value": "/Users/charlie/Library/Developer/CoreSimulator/Devices/196D4426-FBB3-4AD8-B1FA-B09E13C6B6E0/data/Containers/Data/Application/0A579EFD-F6A9-4350-A053-4A772C6F07D5/Library/secret.json"
+      "value": "/Users/charlie/Library/Developer/CoreSimulator/Devices/196D4426-FBB3-4AD8-B1FA-B09E13C6B6E0/data/Containers/Data/Application/5F896191-75F7-4D5F-BA0C-61CCFD9CC84A/Library/secret.json"
     }
   ]
 }
 {
-  "id": "e93c7618-4c27-47b1-adaa-90ee84d5b420",
+  "id": "a6a04baa-ff8f-49d7-8ce1-6123a7c38517",
   "type": "native-hook",
   "category": "STORAGE",
-  "time": "2025-11-30T15:46:04.167Z",
+  "time": "2025-12-14T16:42:17.640Z",
   "module": "<global>",
   "symbol": "open",
-  "address": "0x104f33914",
+  "address": "0x100cfb914",
   "stackTrace": [
     "0x1810b8014 Foundation!_NSOpenFileDescriptor_Protected",
     "0x180bc1204 Foundation!closure #1 in writeToFileNoAux(path:buffer:options:attributes:reportProgress:)",
@@ -130,8 +130,8 @@
     "0x180dde828 Foundation!partial apply for closure #1 in writeToFile(path:data:options:attributes:reportProgress:)",
     "0x1808aeb0c Foundation!specialized Data._Representation.withUnsafeBytes<A>(_:)",
     "0x180ddd5fc Foundation!StringProtocol.write(to:atomically:encoding:)",
-    "0x104c1d6c8 MASTestApp.debug.dylib!static MastgTest.mastgTest(completion:) /Users/charlie/git/MASTestApp-iOS/MASTestApp/MastgTest.swift:22:21",
-    "0x104c1f38c MASTestApp.debug.dylib!closure #1 in closure #1 in closure #1 in ContentView.body.getter /Users/charlie/git/MASTestApp-iOS/MASTestApp/ContentView.swift:25:31",
+    "0x100cb56c8 MASTestApp.debug.dylib!static MastgTest.mastgTest(completion:) /Users/charlie/git/MASTestApp-iOS/MASTestApp/MastgTest.swift:22:21",
+    "0x100cb738c MASTestApp.debug.dylib!closure #1 in closure #1 in closure #1 in ContentView.body.getter /Users/charlie/git/MASTestApp-iOS/MASTestApp/ContentView.swift:25:31",
     "0x1d9dbf428 SwiftUI!<deduplicated_symbol>",
     "0x1da4c02a0 SwiftUI!specialized static MainActor.assumeIsolated<A>(_:file:line:)",
     "0x1da48ac9c SwiftUI!ButtonAction.callAsFunction()",
@@ -143,7 +143,7 @@
     {
       "name": "path",
       "type": "string",
-      "value": "/Users/charlie/Library/Developer/CoreSimulator/Devices/196D4426-FBB3-4AD8-B1FA-B09E13C6B6E0/data/Containers/Data/Application/0A579EFD-F6A9-4350-A053-4A772C6F07D5/Library/Application Support/secret.json"
+      "value": "/Users/charlie/Library/Developer/CoreSimulator/Devices/196D4426-FBB3-4AD8-B1FA-B09E13C6B6E0/data/Containers/Data/Application/5F896191-75F7-4D5F-BA0C-61CCFD9CC84A/Library/Application Support/secret.json"
     }
   ]
 }

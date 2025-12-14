@@ -27,16 +27,16 @@
   "totalErrors": 0
 }
 {
-  "id": "b4a7c6cb-cd0b-4be9-9cef-48c6f7a9461a",
+  "id": "0c214d31-9ab8-4dc3-bb4a-2b61f0f721f5",
   "type": "native-hook",
-  "category": "MASVS-AUTH",
-  "time": "2025-11-30T18:57:04.700Z",
+  "category": "AUTH",
+  "time": "2025-12-14T16:30:00.610Z",
   "module": "<global>",
   "symbol": "SecAccessControlCreateWithFlags",
   "address": "0x18203e4d4",
   "stackTrace": [
-    "0x10064d4c0 MASTestApp.debug.dylib!static MastgTest.mastgTest(completion:) /Users/charlie/git/MASTestApp-iOS/MASTestApp/MastgTest.swift:13:31",
-    "0x10064fa8c MASTestApp.debug.dylib!closure #1 in closure #1 in closure #1 in ContentView.body.getter /Users/charlie/git/MASTestApp-iOS/MASTestApp/ContentView.swift:25:31",
+    "0x102ee94c0 MASTestApp.debug.dylib!static MastgTest.mastgTest(completion:) /Users/charlie/git/MASTestApp-iOS/MASTestApp/MastgTest.swift:13:31",
+    "0x102eeba8c MASTestApp.debug.dylib!closure #1 in closure #1 in closure #1 in ContentView.body.getter /Users/charlie/git/MASTestApp-iOS/MASTestApp/ContentView.swift:25:31",
     "0x1d9dbf428 SwiftUI!<deduplicated_symbol>",
     "0x1da4c02a0 SwiftUI!specialized static MainActor.assumeIsolated<A>(_:file:line:)",
     "0x1da48ac9c SwiftUI!ButtonAction.callAsFunction()",
@@ -79,19 +79,19 @@
       "value": "i���\u0001"
     }
   ],
-  "retval": "0x60000021f100"
+  "retval": "0x6000002191a0"
 }
 {
-  "id": "b2273846-f867-40cc-8968-6b76881b2383",
+  "id": "6b1e9ebb-d162-4f60-8d21-a8f3e31fd9ca",
   "type": "native-hook",
-  "category": "MASVS-AUTH",
-  "time": "2025-11-30T18:57:04.727Z",
+  "category": "AUTH",
+  "time": "2025-12-14T16:30:00.620Z",
   "module": "<global>",
   "symbol": "SecItemDelete",
   "address": "0x182061bfc",
   "stackTrace": [
-    "0x10064d75c MASTestApp.debug.dylib!static MastgTest.mastgTest(completion:) /Users/charlie/git/MASTestApp-iOS/MASTestApp/MastgTest.swift:39:5",
-    "0x10064fa8c MASTestApp.debug.dylib!closure #1 in closure #1 in closure #1 in ContentView.body.getter /Users/charlie/git/MASTestApp-iOS/MASTestApp/ContentView.swift:25:31",
+    "0x102ee975c MASTestApp.debug.dylib!static MastgTest.mastgTest(completion:) /Users/charlie/git/MASTestApp-iOS/MASTestApp/MastgTest.swift:39:5",
+    "0x102eeba8c MASTestApp.debug.dylib!closure #1 in closure #1 in closure #1 in ContentView.body.getter /Users/charlie/git/MASTestApp-iOS/MASTestApp/ContentView.swift:25:31",
     "0x1d9dbf428 SwiftUI!<deduplicated_symbol>",
     "0x1da4c02a0 SwiftUI!specialized static MainActor.assumeIsolated<A>(_:file:line:)",
     "0x1da48ac9c SwiftUI!ButtonAction.callAsFunction()",
@@ -111,21 +111,21 @@
     {
       "name": "query",
       "type": "CFDictionary",
-      "value": "{\"v_Data\":\"ODc2NzA4NmI5ZjZmOTc2Zy1hOGRmNzY=\",\"class\":\"genp\",\"accc\":\"<SecAccessControlRef: ak;od(cpo(DeviceOwnerAuthentication));odel(true);oe(true)>\",\"acct\":\"com.mastg.sectoken\"}"
+      "value": "{\"class\":\"genp\",\"v_Data\":\"ODc2NzA4NmI5ZjZmOTc2Zy1hOGRmNzY=\",\"accc\":\"<SecAccessControlRef: ak;od(cpo(DeviceOwnerAuthentication));odel(true);oe(true)>\",\"acct\":\"com.mastg.sectoken\"}"
     }
   ]
 }
 {
-  "id": "226ad640-fe8e-45ea-bfea-a00224eb39bb",
+  "id": "7fcfe68f-9216-48f4-9ef5-1270e9fae91b",
   "type": "native-hook",
-  "category": "MASVS-AUTH",
-  "time": "2025-11-30T18:57:04.731Z",
+  "category": "AUTH",
+  "time": "2025-12-14T16:30:00.627Z",
   "module": "<global>",
   "symbol": "SecItemAdd",
   "address": "0x1820603dc",
   "stackTrace": [
-    "0x10064d79c MASTestApp.debug.dylib!static MastgTest.mastgTest(completion:) /Users/charlie/git/MASTestApp-iOS/MASTestApp/MastgTest.swift:40:23",
-    "0x10064fa8c MASTestApp.debug.dylib!closure #1 in closure #1 in closure #1 in ContentView.body.getter /Users/charlie/git/MASTestApp-iOS/MASTestApp/ContentView.swift:25:31",
+    "0x102ee979c MASTestApp.debug.dylib!static MastgTest.mastgTest(completion:) /Users/charlie/git/MASTestApp-iOS/MASTestApp/MastgTest.swift:40:23",
+    "0x102eeba8c MASTestApp.debug.dylib!closure #1 in closure #1 in closure #1 in ContentView.body.getter /Users/charlie/git/MASTestApp-iOS/MASTestApp/ContentView.swift:25:31",
     "0x1d9dbf428 SwiftUI!<deduplicated_symbol>",
     "0x1da4c02a0 SwiftUI!specialized static MainActor.assumeIsolated<A>(_:file:line:)",
     "0x1da48ac9c SwiftUI!ButtonAction.callAsFunction()",
@@ -145,7 +145,7 @@
     {
       "name": "query",
       "type": "CFDictionary",
-      "value": "{\"v_Data\":\"ODc2NzA4NmI5ZjZmOTc2Zy1hOGRmNzY=\",\"class\":\"genp\",\"accc\":\"<SecAccessControlRef: ak;od(cpo(DeviceOwnerAuthentication));odel(true);oe(true)>\",\"acct\":\"com.mastg.sectoken\"}"
+      "value": "{\"class\":\"genp\",\"v_Data\":\"ODc2NzA4NmI5ZjZmOTc2Zy1hOGRmNzY=\",\"accc\":\"<SecAccessControlRef: ak;od(cpo(DeviceOwnerAuthentication));odel(true);oe(true)>\",\"acct\":\"com.mastg.sectoken\"}"
     },
     {
       "name": "result",
@@ -155,16 +155,16 @@
   ]
 }
 {
-  "id": "5029f5aa-f8ff-4f27-95ea-fe37a1aada49",
+  "id": "d84265fc-ade3-4e68-8dac-b463473a2f77",
   "type": "native-hook",
-  "category": "MASVS-AUTH",
-  "time": "2025-11-30T18:57:04.734Z",
+  "category": "AUTH",
+  "time": "2025-12-14T16:30:00.629Z",
   "module": "<global>",
   "symbol": "SecItemCopyMatching",
   "address": "0x182061a18",
   "stackTrace": [
-    "0x10064da04 MASTestApp.debug.dylib!static MastgTest.mastgTest(completion:) /Users/charlie/git/MASTestApp-iOS/MASTestApp/MastgTest.swift:62:23",
-    "0x10064fa8c MASTestApp.debug.dylib!closure #1 in closure #1 in closure #1 in ContentView.body.getter /Users/charlie/git/MASTestApp-iOS/MASTestApp/ContentView.swift:25:31",
+    "0x102ee9a04 MASTestApp.debug.dylib!static MastgTest.mastgTest(completion:) /Users/charlie/git/MASTestApp-iOS/MASTestApp/MastgTest.swift:62:23",
+    "0x102eeba8c MASTestApp.debug.dylib!closure #1 in closure #1 in closure #1 in ContentView.body.getter /Users/charlie/git/MASTestApp-iOS/MASTestApp/ContentView.swift:25:31",
     "0x1d9dbf428 SwiftUI!<deduplicated_symbol>",
     "0x1da4c02a0 SwiftUI!specialized static MainActor.assumeIsolated<A>(_:file:line:)",
     "0x1da48ac9c SwiftUI!ButtonAction.callAsFunction()",
@@ -184,12 +184,12 @@
     {
       "name": "query",
       "type": "CFDictionary",
-      "value": "{\"class\":\"genp\",\"acct\":\"com.mastg.sectoken\",\"m_Limit\":\"m_LimitOne\",\"r_Data\":1}"
+      "value": "{\"acct\":\"com.mastg.sectoken\",\"r_Data\":1,\"m_Limit\":\"m_LimitOne\",\"class\":\"genp\"}"
     },
     {
       "name": "result",
       "type": "pointer",
-      "value": "0x16f918ed0"
+      "value": "0x16cfbdf30"
     }
   ]
 }
