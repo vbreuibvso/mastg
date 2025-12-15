@@ -4,11 +4,10 @@ import WebKit
 // SUMMARY: This sample demonstrates a WKWebView configured to allow file access from file URLs, which could enable malicious JavaScript to access local files.
 
 class MastgTest {
-    
-    var webView: WKWebView!
-    
-    func mastgTest() -> String {
-        
+
+    static func mastgTest(completion: @escaping (String) -> Void) {
+        var webView: WKWebView!
+
         // FAIL: [MASTG-TEST-0318] Configure WKWebView with file access enabled
         let configuration = WKWebViewConfiguration()
         
@@ -32,6 +31,6 @@ class MastgTest {
             webView.loadFileURL(htmlPath, allowingReadAccessTo: readAccessURL)
         }
         
-        return "WebView configured with file access enabled"
+        completion("WebView configured with file access enabled")
     }
 }
